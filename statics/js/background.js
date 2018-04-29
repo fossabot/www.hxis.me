@@ -2,7 +2,11 @@ var quotes = new Array();
 quotes[0] = "https://api.i-meto.com/bing?new";
 quotes[1] = "https://api.ikmoe.com/moeu-api.php";
 quotes[2] = "https://api.paugram.com/wallpaper/?source=sina";
+quotes[3] = "https://api.paugram.com/wallpaper/?source=sina";
 quotes[4] = "https://api.i-meto.com/bing"
+quotes[5] = "https://source.unsplash.com/random/1920x1080"
+quotes[6] = "https://source.unsplash.com/random/1920x1080"
+quotes[7] = "https://source.unsplash.com/random/1920x1080"
 
 var q = quotes.length;
 var whichquote = Math.round(Math.random() * (q - 1));
