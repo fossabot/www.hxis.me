@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 a {
     text-decoration: none;
@@ -354,7 +354,7 @@ footer {
 #home h1 {
     margin-top: .7em;
     font-size: 3em;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #home p {
@@ -603,18 +603,3 @@ footer {
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;}
-
-/* Background */
-
-@media only screen and (min-width: 768px) {
-    body {
-        background-image: url("https://source.unsplash.com/random/1920x1080");
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    body {
-        background-image: url("https://source.unsplash.com/random/1920x1080");
-    }
-}
-
